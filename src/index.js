@@ -1,7 +1,4 @@
-import Header from './templates/Header'
+import router from './routes';
 
-const hola = document.getElementsByTagName('body')[0]
-console.log(document.hola)
-console.log(hola)
-hola.innerHTML = Header()
-hola.style="background-color:red"
+window.addEventListener('load', router);
+window.addEventListener('hashchange', router);
