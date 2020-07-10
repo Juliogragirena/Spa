@@ -1,7 +1,7 @@
-import getData from '../utils/getData'
+import getData from '../utils/getData';
 
 const Home = async () => {
-    const character = await getData()
+    const character = await getData();
     const view = `
     <div class = "Characters">
         ${character.results.map( char =>`
