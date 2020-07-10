@@ -11,8 +11,7 @@ const Home = async () => {
                 <h2>${char.name}</h2>
                 </a>
             </article>
-        `
-        ).join('')}
+        `).join('')}
     </div>
     `;
     return view;
