@@ -8,4 +8,4 @@ const Error404 = () => {
     return view;
 }
 
-export default Error404
+export default Error404;

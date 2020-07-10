@@ -26,4 +26,4 @@ const Character = async () => {
     return view;
 };
 
-export default  Character
+export default  Character;
